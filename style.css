@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  color: black;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  margin: 0;
+}
+
+.noline {
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 0;
+  width: 30%;
+  overflow: scroll;
+  float: left;
+}
+
+.main {
+  width: 70%;
+  float: left;
+}
+
+iframe {
+  display: none;
+  width: 100%;
+}
+
+#email {
+  display: none;
+}
+
+#horrorimg {
+  display: none;
+}
+
+#gradshowimg {
+  display: none;
+}
+
+.pics {
+  width: 100%;
+}
