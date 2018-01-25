@@ -27,11 +27,12 @@ header {
   width: 30%;
   overflow: scroll;
   float: left;
+  position: fixed;
 }
 
 .main {
   width: 70%;
-  float: left;
+  float: right;
 }
 
 .text {
@@ -52,6 +53,18 @@ footer {
 }
 
 #gradshowimg {
+  display: none;
+}
+
+#villagesimg {
+  display: none;
+}
+
+#futureimg {
+  display: none;
+}
+
+#shareimg {
   display: none;
 }
 
