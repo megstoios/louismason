@@ -30,6 +30,10 @@ header {
   position: fixed;
 }
 
+.italics {
+  font-style: italic;
+}
+
 .main {
   width: 70%;
   float: right;

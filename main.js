@@ -6,6 +6,8 @@ $(document).ready(function() {
   var demonpdf = document.getElementById("demonpdf")
   var ramraid = document.getElementById("ramraid")
   var ramraidpdf = document.getElementById("ramraidpdf")
+  var special = document.getElementById("special")
+  var specialpdf = document.getElementById("specialpdf")
   var current = document.getElementById("current")
   var contact = document.getElementById("contact")
   var email = document.getElementById("email")
@@ -26,6 +28,7 @@ $(document).ready(function() {
     lcrcpdf.style.display = "none";
     demonpdf.style.display = "none";
     ramraidpdf.style.display = "none";
+    specialpdf.style.display = "none";
     email.style.display = "none";
     horrorimg.style.display = "none";
     gradshowimg.style.display = "none";
@@ -39,6 +42,7 @@ $(document).ready(function() {
       lcrcpdf.style.display = "block";
       demonpdf.style.display = "none";
       ramraidpdf.style.display = "none";
+      specialpdf.style.display = "none";
       email.style.display = "none";
       horrorimg.style.display = "none";
       gradshowimg.style.display = "none";
@@ -52,6 +56,7 @@ $(document).ready(function() {
       demonpdf.style.display = "block";
       lcrcpdf.style.display = "none";
       ramraidpdf.style.display = "none";
+      specialpdf.style.display = "none";
       email.style.display = "none";
       horrorimg.style.display = "none";
       villagesimg.style.display = "none";
@@ -64,6 +69,7 @@ $(document).ready(function() {
       ramraidpdf.style.display = "block";
       demonpdf.style.display = "none";
       lcrcpdf.style.display = "none";
+      specialpdf.style.display = "none";
       email.style.display = "none";
       horrorimg.style.display = "none";
       gradshowimg.style.display = "none";
@@ -78,6 +84,7 @@ $(document).ready(function() {
       ramraidpdf.style.display = "none";
       demonpdf.style.display = "none";
       lcrcpdf.style.display = "none";
+      specialpdf.style.display = "none";
       horrorimg.style.display = "none";
       gradshowimg.style.display = "none";
       villagesimg.style.display = "none";
@@ -92,6 +99,7 @@ $(document).ready(function() {
         ramraidpdf.style.display = "none";
         demonpdf.style.display = "none";
         lcrcpdf.style.display = "none";
+        specialpdf.style.display = "none";
         gradshowimg.style.display = "none";
         villagesimg.style.display = "none";
         futureimg.style.display = "none";
@@ -105,6 +113,7 @@ $(document).ready(function() {
         ramraidpdf.style.display = "none";
         demonpdf.style.display = "none";
         lcrcpdf.style.display = "none";
+        specialpdf.style.display = "none";
         horrorimg.style.display = "none";
         villagesimg.style.display = "none";
         futureimg.style.display = "none";
@@ -118,6 +127,7 @@ $(document).ready(function() {
           ramraidpdf.style.display = "none";
           demonpdf.style.display = "none";
           lcrcpdf.style.display = "none";
+          specialpdf.style.display = "none";
           horrorimg.style.display = "none";
           villagesimg.style.display = "block";
           futureimg.style.display = "none";
@@ -131,6 +141,7 @@ $(document).ready(function() {
             ramraidpdf.style.display = "none";
             demonpdf.style.display = "none";
             lcrcpdf.style.display = "none";
+            specialpdf.style.display = "none";
             horrorimg.style.display = "none";
             villagesimg.style.display = "none";
             futureimg.style.display = "block";
@@ -144,11 +155,26 @@ $(document).ready(function() {
               ramraidpdf.style.display = "none";
               demonpdf.style.display = "none";
               lcrcpdf.style.display = "none";
+              specialpdf.style.display = "none";
               horrorimg.style.display = "none";
               villagesimg.style.display = "none";
               futureimg.style.display = "none";
               shareimg.style.display = "block";
             }
+
+            special.onclick = function() {
+                gradshowimg.style.display = "none";
+                email.style.display = "none";
+                current.style.display = "none";
+                ramraidpdf.style.display = "none";
+                demonpdf.style.display = "none";
+                lcrcpdf.style.display = "none";
+                specialpdf.style.display = "block";
+                horrorimg.style.display = "none";
+                villagesimg.style.display = "none";
+                futureimg.style.display = "none";
+                shareimg.style.display = "none";
+              }
 
 
 })
