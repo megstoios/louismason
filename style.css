@@ -72,6 +72,10 @@ footer {
   display: none;
 }
 
+#gogimg {
+  display: none;
+}
+
 .pics {
   width: 100%;
 }
