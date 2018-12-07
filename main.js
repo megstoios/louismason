@@ -26,6 +26,8 @@ $(document).ready(function() {
   var shareimg = document.getElementById("shareimg")
   var gog = document.getElementById("gog")
   var gogimg = document.getElementById("gogimg")
+  var body = document.getElementById("body")
+  var bodyimg = document.getElementById("bodyimg")
 
   louismason.onclick = function() {
     current.style.display = "block";
@@ -41,6 +43,7 @@ $(document).ready(function() {
     futureimg.style.display = "none";
     shareimg.style.display = "none";
     gogimg.style.display = "none";
+    bodyimg.style.display = "none";
   }
 
   lcrc.onclick = function() {
@@ -57,6 +60,7 @@ $(document).ready(function() {
       futureimg.style.display = "none";
       shareimg.style.display = "none";
       gogimg.style.display = "none";
+      bodyimg.style.display = "none";
     }
 
   demon.onclick = function() {
@@ -72,6 +76,7 @@ $(document).ready(function() {
       futureimg.style.display = "none";
       shareimg.style.display = "none";
       gogimg.style.display = "none";
+      bodyimg.style.display = "none";
     }
 
   ramraid.onclick = function() {
@@ -88,6 +93,7 @@ $(document).ready(function() {
       futureimg.style.display = "none";
       shareimg.style.display = "none";
       gogimg.style.display = "none";
+      bodyimg.style.display = "none";
     }
 
   contact.onclick = function() {
@@ -104,6 +110,7 @@ $(document).ready(function() {
       futureimg.style.display = "none";
       shareimg.style.display = "none";
       gogimg.style.display = "none";
+      bodyimg.style.display = "none";
     }
 
     horror.onclick = function() {
@@ -120,6 +127,7 @@ $(document).ready(function() {
         futureimg.style.display = "none";
         shareimg.style.display = "none";
         gogimg.style.display = "none";
+        bodyimg.style.display = "none";
       }
 
     gradshow.onclick = function() {
@@ -136,6 +144,7 @@ $(document).ready(function() {
         futureimg.style.display = "none";
         shareimg.style.display = "none";
         gogimg.style.display = "none";
+        bodyimg.style.display = "none";
       }
 
       villages.onclick = function() {
@@ -152,6 +161,7 @@ $(document).ready(function() {
           futureimg.style.display = "none";
           shareimg.style.display = "none";
           gogimg.style.display = "none";
+          bodyimg.style.display = "none";
         }
 
         future.onclick = function() {
@@ -168,6 +178,7 @@ $(document).ready(function() {
             futureimg.style.display = "block";
             shareimg.style.display = "none";
             gogimg.style.display = "none";
+            bodyimg.style.display = "none";
           }
 
           share.onclick = function() {
@@ -184,6 +195,7 @@ $(document).ready(function() {
               futureimg.style.display = "none";
               shareimg.style.display = "block";
               gogimg.style.display = "none";
+              bodyimg.style.display = "none";
             }
 
             special.onclick = function() {
@@ -200,6 +212,7 @@ $(document).ready(function() {
                 futureimg.style.display = "none";
                 shareimg.style.display = "none";
                 gogimg.style.display = "none";
+                bodyimg.style.display = "none";
               }
 
               diver.onclick = function() {
@@ -216,6 +229,7 @@ $(document).ready(function() {
                   futureimg.style.display = "none";
                   shareimg.style.display = "none";
                   gogimg.style.display = "none";
+                  bodyimg.style.display = "none";
                 }
 
               gog.onclick = function() {
@@ -232,7 +246,25 @@ $(document).ready(function() {
                   futureimg.style.display = "none";
                   shareimg.style.display = "none";
                   gogimg.style.display = "block";
+                  bodyimg.style.display = "none";
                 }
+
+                body.onclick = function() {
+                    gradshowimg.style.display = "none";
+                    email.style.display = "none";
+                    current.style.display = "none";
+                    ramraidpdf.style.display = "none";
+                    demonpdf.style.display = "none";
+                    lcrcpdf.style.display = "none";
+                    specialpdf.style.display = "none";
+                    diverpdf.style.display = "none";
+                    horrorimg.style.display = "none";
+                    villagesimg.style.display = "none";
+                    futureimg.style.display = "none";
+                    shareimg.style.display = "none";
+                    gogimg.style.display = "none";
+                    bodyimg.style.display = "block";
+                  }
 
 
 })
