@@ -32,6 +32,8 @@ $(document).ready(function() {
   var gogimg = document.getElementById("gogimg")
   var body = document.getElementById("body")
   var bodyimg = document.getElementById("bodyimg")
+  var summit = document.getElementById("summit")
+  var summitimg = document.getElementById("summitimg")
 
   louismason.onclick = function() {
     current.style.display = "block";
@@ -50,6 +52,7 @@ $(document).ready(function() {
     shareimg.style.display = "none";
     gogimg.style.display = "none";
     bodyimg.style.display = "none";
+    summitimg.style.display = "none";
   }
 
   lcrc.onclick = function() {
@@ -69,6 +72,7 @@ $(document).ready(function() {
       shareimg.style.display = "none";
       gogimg.style.display = "none";
       bodyimg.style.display = "none";
+      summitimg.style.display = "none";
     }
 
   demon.onclick = function() {
@@ -87,6 +91,7 @@ $(document).ready(function() {
       shareimg.style.display = "none";
       gogimg.style.display = "none";
       bodyimg.style.display = "none";
+      summitimg.style.display = "none";
     }
 
   ramraid.onclick = function() {
@@ -106,6 +111,7 @@ $(document).ready(function() {
       shareimg.style.display = "none";
       gogimg.style.display = "none";
       bodyimg.style.display = "none";
+      summitimg.style.display = "none";
     }
 
   contact.onclick = function() {
@@ -125,6 +131,7 @@ $(document).ready(function() {
       shareimg.style.display = "none";
       gogimg.style.display = "none";
       bodyimg.style.display = "none";
+      summitimg.style.display = "none";
     }
 
     horror.onclick = function() {
@@ -144,6 +151,7 @@ $(document).ready(function() {
         shareimg.style.display = "none";
         gogimg.style.display = "none";
         bodyimg.style.display = "none";
+        summitimg.style.display = "none";
       }
 
     gradshow.onclick = function() {
@@ -163,6 +171,7 @@ $(document).ready(function() {
         shareimg.style.display = "none";
         gogimg.style.display = "none";
         bodyimg.style.display = "none";
+        summitimg.style.display = "none";
       }
 
       villages.onclick = function() {
@@ -182,6 +191,7 @@ $(document).ready(function() {
           shareimg.style.display = "none";
           gogimg.style.display = "none";
           bodyimg.style.display = "none";
+          summitimg.style.display = "none";
         }
 
         future.onclick = function() {
@@ -201,6 +211,7 @@ $(document).ready(function() {
             shareimg.style.display = "none";
             gogimg.style.display = "none";
             bodyimg.style.display = "none";
+            summitimg.style.display = "none";
           }
 
           share.onclick = function() {
@@ -220,6 +231,7 @@ $(document).ready(function() {
               shareimg.style.display = "block";
               gogimg.style.display = "none";
               bodyimg.style.display = "none";
+              summitimg.style.display = "none";
             }
 
             special.onclick = function() {
@@ -239,6 +251,7 @@ $(document).ready(function() {
                 shareimg.style.display = "none";
                 gogimg.style.display = "none";
                 bodyimg.style.display = "none";
+                summitimg.style.display = "none";
               }
 
               diver.onclick = function() {
@@ -258,6 +271,7 @@ $(document).ready(function() {
                   shareimg.style.display = "none";
                   gogimg.style.display = "none";
                   bodyimg.style.display = "none";
+                  summitimg.style.display = "none";
                 }
 
               gog.onclick = function() {
@@ -277,6 +291,7 @@ $(document).ready(function() {
                   shareimg.style.display = "none";
                   gogimg.style.display = "block";
                   bodyimg.style.display = "none";
+                  summitimg.style.display = "none";
                 }
 
                 body.onclick = function() {
@@ -296,6 +311,7 @@ $(document).ready(function() {
                     shareimg.style.display = "none";
                     gogimg.style.display = "none";
                     bodyimg.style.display = "block";
+                    summitimg.style.display = "none";
                   }
 
                   untimed.onclick = function() {
@@ -315,6 +331,7 @@ $(document).ready(function() {
                       shareimg.style.display = "none";
                       gogimg.style.display = "none";
                       bodyimg.style.display = "none";
+                      summitimg.style.display = "none";
                     }
 
                  cruciform.onclick = function() {
@@ -334,6 +351,27 @@ $(document).ready(function() {
                       shareimg.style.display = "none";
                       gogimg.style.display = "none";
                       bodyimg.style.display = "none";
+                      summitimg.style.display = "none";
+                    }
+
+                summit.onclick = function() {
+                      gradshowimg.style.display = "none";
+                      email.style.display = "none";
+                      current.style.display = "none";
+                      ramraidpdf.style.display = "none";
+                      demonpdf.style.display = "none";
+                      lcrcpdf.style.display = "none";
+                      specialpdf.style.display = "none";
+                      diverpdf.style.display = "none";
+                      untimedpdf.style.display = "none";
+                      cruciformpdf.style.display = "none";
+                      horrorimg.style.display = "none";
+                      villagesimg.style.display = "none";
+                      futureimg.style.display = "none";
+                      shareimg.style.display = "none";
+                      gogimg.style.display = "none";
+                      bodyimg.style.display = "none";
+                      summitimg.style.display = "block";
                     }
 
 })
