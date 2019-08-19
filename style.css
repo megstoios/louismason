@@ -52,6 +52,10 @@ footer {
   display: none;
 }
 
+#perishimg {
+  display: none;
+}
+
 #desertimg {
   display: none;
 }
@@ -72,17 +76,17 @@ footer {
   display: none;
 }
 
-#villagesimg {
+/*#villagesimg {
   display: none;
-}
+} */
 
 #futureimg {
   display: none;
 }
 
-#shareimg {
+/*#shareimg {
   display: none;
-}
+} */
 
 #gogimg {
   display: none;

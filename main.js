@@ -4,8 +4,8 @@ $(document).ready(function() {
   var lcrcpdf = document.getElementById("lcrcpdf")
   var demon = document.getElementById("demon")
   var demonpdf = document.getElementById("demonpdf")
-  var ramraid = document.getElementById("ramraid")
-  var ramraidpdf = document.getElementById("ramraidpdf")
+  //var ramraid = document.getElementById("ramraid")
+  //var ramraidpdf = document.getElementById("ramraidpdf")
   var special = document.getElementById("special")
   var specialpdf = document.getElementById("specialpdf")
   var diver = document.getElementById("diver")
@@ -24,12 +24,12 @@ $(document).ready(function() {
   var horrorimg = document.getElementById("horrorimg")
   var gradshow = document.getElementById("gradshow")
   var gradshowimg = document.getElementById("gradshowimg")
-  var villages = document.getElementById("villages")
-  var villagesimg = document.getElementById("villagesimg")
+  //var villages = document.getElementById("villages")
+  //var villagesimg = document.getElementById("villagesimg")
   var future = document.getElementById("future")
   var futureimg = document.getElementById("futureimg")
-  var share = document.getElementById("share")
-  var shareimg = document.getElementById("shareimg")
+  //var share = document.getElementById("share")
+  //var shareimg = document.getElementById("shareimg")
   var gog = document.getElementById("gog")
   var gogimg = document.getElementById("gogimg")
   var body = document.getElementById("body")
@@ -38,12 +38,14 @@ $(document).ready(function() {
   var summitimg = document.getElementById("summitimg")
   var desert = document.getElementById("desert")
   var desertimg = document.getElementById("desertimg")
+  var perish = document.getElementById("perish")
+  var perishimg = document.getElementById("perishimg")
 
   louismason.onclick = function() {
     current.style.display = "block";
     lcrcpdf.style.display = "none";
     demonpdf.style.display = "none";
-    ramraidpdf.style.display = "none";
+    //ramraidpdf.style.display = "none";
     specialpdf.style.display = "none";
     diverpdf.style.display = "none";
     untimedpdf.style.display = "none";
@@ -52,20 +54,21 @@ $(document).ready(function() {
     email.style.display = "none";
     horrorimg.style.display = "none";
     gradshowimg.style.display = "none";
-    villagesimg.style.display = "none";
+    //villagesimg.style.display = "none";
     futureimg.style.display = "none";
-    shareimg.style.display = "none";
+    //shareimg.style.display = "none";
     gogimg.style.display = "none";
     bodyimg.style.display = "none";
     summitimg.style.display = "none";
     desertimg.style.display = "none";
+    perishimg.style.display = "none";
   }
 
   lcrc.onclick = function() {
       current.style.display = "none";
       lcrcpdf.style.display = "block";
       demonpdf.style.display = "none";
-      ramraidpdf.style.display = "none";
+      //ramraidpdf.style.display = "none";
       specialpdf.style.display = "none";
       diverpdf.style.display = "none";
       untimedpdf.style.display = "none";
@@ -74,20 +77,21 @@ $(document).ready(function() {
       email.style.display = "none";
       horrorimg.style.display = "none";
       gradshowimg.style.display = "none";
-      villagesimg.style.display = "none";
+      //villagesimg.style.display = "none";
       futureimg.style.display = "none";
-      shareimg.style.display = "none";
+      //shareimg.style.display = "none";
       gogimg.style.display = "none";
       bodyimg.style.display = "none";
       summitimg.style.display = "none";
       desertimg.style.display = "none";
+      perishimg.style.display = "none";
     }
 
   demon.onclick = function() {
       current.style.display = "none";
       demonpdf.style.display = "block";
       lcrcpdf.style.display = "none";
-      ramraidpdf.style.display = "none";
+      //ramraidpdf.style.display = "none";
       specialpdf.style.display = "none";
       diverpdf.style.display = "none";
       untimedpdf.style.display = "none";
@@ -95,41 +99,43 @@ $(document).ready(function() {
       attendantspdf.style.display = "none";
       email.style.display = "none";
       horrorimg.style.display = "none";
-      villagesimg.style.display = "none";
+      //villagesimg.style.display = "none";
       futureimg.style.display = "none";
-      shareimg.style.display = "none";
+      //shareimg.style.display = "none";
       gogimg.style.display = "none";
       bodyimg.style.display = "none";
       summitimg.style.display = "none";
       desertimg.style.display = "none";
+      perishimg.style.display = "none";
     }
 
-  ramraid.onclick = function() {
-      current.style.display = "none";
-      ramraidpdf.style.display = "block";
-      demonpdf.style.display = "none";
-      lcrcpdf.style.display = "none";
-      specialpdf.style.display = "none";
-      diverpdf.style.display = "none";
-      untimedpdf.style.display = "none";
-      cruciformpdf.style.display = "none";
-      attendantspdf.style.display = "none";
-      email.style.display = "none";
-      horrorimg.style.display = "none";
-      gradshowimg.style.display = "none";
-      villagesimg.style.display = "none";
-      futureimg.style.display = "none";
-      shareimg.style.display = "none";
-      gogimg.style.display = "none";
-      bodyimg.style.display = "none";
-      summitimg.style.display = "none";
-      desertimg.style.display = "none";
-    }
+  //ramraid.onclick = function() {
+      //current.style.display = "none";
+      //ramraidpdf.style.display = "block";
+      //demonpdf.style.display = "none";
+      //lcrcpdf.style.display = "none";
+      //specialpdf.style.display = "none";
+      //diverpdf.style.display = "none";
+      //untimedpdf.style.display = "none";
+      //cruciformpdf.style.display = "none";
+      //attendantspdf.style.display = "none";
+      //email.style.display = "none";
+      //horrorimg.style.display = "none";
+      //gradshowimg.style.display = "none";
+      //villagesimg.style.display = "none";
+      //futureimg.style.display = "none";
+      //shareimg.style.display = "none";
+      //gogimg.style.display = "none";
+      //bodyimg.style.display = "none";
+      //summitimg.style.display = "none";
+      //desertimg.style.display = "none";
+      //perishimg.style.display = "none";
+    //}
 
   contact.onclick = function() {
       email.style.display = "block";
       current.style.display = "none";
-      ramraidpdf.style.display = "none";
+      //ramraidpdf.style.display = "none";
       demonpdf.style.display = "none";
       lcrcpdf.style.display = "none";
       specialpdf.style.display = "none";
@@ -139,20 +145,21 @@ $(document).ready(function() {
       attendantspdf.style.display = "none";
       horrorimg.style.display = "none";
       gradshowimg.style.display = "none";
-      villagesimg.style.display = "none";
+      //villagesimg.style.display = "none";
       futureimg.style.display = "none";
-      shareimg.style.display = "none";
+      //shareimg.style.display = "none";
       gogimg.style.display = "none";
       bodyimg.style.display = "none";
       summitimg.style.display = "none";
       desertimg.style.display = "none";
+      perishimg.style.display = "none";
     }
 
     horror.onclick = function() {
         horrorimg.style.display = "block";
         email.style.display = "none";
         current.style.display = "none";
-        ramraidpdf.style.display = "none";
+        //ramraidpdf.style.display = "none";
         demonpdf.style.display = "none";
         lcrcpdf.style.display = "none";
         specialpdf.style.display = "none";
@@ -161,20 +168,21 @@ $(document).ready(function() {
         cruciformpdf.style.display = "none";
         attendantspdf.style.display = "none";
         gradshowimg.style.display = "none";
-        villagesimg.style.display = "none";
+        //villagesimg.style.display = "none";
         futureimg.style.display = "none";
-        shareimg.style.display = "none";
+        //shareimg.style.display = "none";
         gogimg.style.display = "none";
         bodyimg.style.display = "none";
         summitimg.style.display = "none";
         desertimg.style.display = "none";
+        perishimg.style.display = "none";
       }
 
     gradshow.onclick = function() {
         gradshowimg.style.display = "block";
         email.style.display = "none";
         current.style.display = "none";
-        ramraidpdf.style.display = "none";
+        //ramraidpdf.style.display = "none";
         demonpdf.style.display = "none";
         lcrcpdf.style.display = "none";
         specialpdf.style.display = "none";
@@ -183,42 +191,44 @@ $(document).ready(function() {
         cruciformpdf.style.display = "none";
         attendantspdf.style.display = "none";
         horrorimg.style.display = "none";
-        villagesimg.style.display = "none";
+        //villagesimg.style.display = "none";
         futureimg.style.display = "none";
-        shareimg.style.display = "none";
+        //shareimg.style.display = "none";
         gogimg.style.display = "none";
         bodyimg.style.display = "none";
         summitimg.style.display = "none";
         desertimg.style.display = "none";
+        perishimg.style.display = "none";
       }
 
-      villages.onclick = function() {
-          gradshowimg.style.display = "none";
-          email.style.display = "none";
-          current.style.display = "none";
-          ramraidpdf.style.display = "none";
-          demonpdf.style.display = "none";
-          lcrcpdf.style.display = "none";
-          specialpdf.style.display = "none";
-          diverpdf.style.display = "none";
-          untimedpdf.style.display = "none";
-          cruciformpdf.style.display = "none";
-          attendantspdf.style.display = "none";
-          horrorimg.style.display = "none";
-          villagesimg.style.display = "block";
-          futureimg.style.display = "none";
-          shareimg.style.display = "none";
-          gogimg.style.display = "none";
-          bodyimg.style.display = "none";
-          summitimg.style.display = "none";
-          desertimg.style.display = "none";
-        }
+      //villages.onclick = function() {
+          //gradshowimg.style.display = "none";
+          //email.style.display = "none";
+          //current.style.display = "none";
+          //ramraidpdf.style.display = "none";
+          //demonpdf.style.display = "none";
+          //lcrcpdf.style.display = "none";
+          //specialpdf.style.display = "none";
+          //diverpdf.style.display = "none";
+          //untimedpdf.style.display = "none";
+          //cruciformpdf.style.display = "none";
+          //attendantspdf.style.display = "none";
+          //horrorimg.style.display = "none";
+          //villagesimg.style.display = "block";
+          //futureimg.style.display = "none";
+          //shareimg.style.display = "none";
+          //gogimg.style.display = "none";
+          //bodyimg.style.display = "none";
+          //summitimg.style.display = "none";
+          //desertimg.style.display = "none";
+          //perishimg.style.display = "none";
+        //}
 
         future.onclick = function() {
             gradshowimg.style.display = "none";
             email.style.display = "none";
             current.style.display = "none";
-            ramraidpdf.style.display = "none";
+            //ramraidpdf.style.display = "none";
             demonpdf.style.display = "none";
             lcrcpdf.style.display = "none";
             specialpdf.style.display = "none";
@@ -227,42 +237,44 @@ $(document).ready(function() {
             cruciformpdf.style.display = "none";
             attendantspdf.style.display = "none";
             horrorimg.style.display = "none";
-            villagesimg.style.display = "none";
+            //villagesimg.style.display = "none";
             futureimg.style.display = "block";
-            shareimg.style.display = "none";
+            //shareimg.style.display = "none";
             gogimg.style.display = "none";
             bodyimg.style.display = "none";
             summitimg.style.display = "none";
             desertimg.style.display = "none";
+            perishimg.style.display = "none";
           }
 
-          share.onclick = function() {
-              gradshowimg.style.display = "none";
-              email.style.display = "none";
-              current.style.display = "none";
-              ramraidpdf.style.display = "none";
-              demonpdf.style.display = "none";
-              lcrcpdf.style.display = "none";
-              specialpdf.style.display = "none";
-              diverpdf.style.display = "none";
-              untimedpdf.style.display = "none";
-              cruciformpdf.style.display = "none";
-              attendantspdf.style.display = "none";
-              horrorimg.style.display = "none";
-              villagesimg.style.display = "none";
-              futureimg.style.display = "none";
-              shareimg.style.display = "block";
-              gogimg.style.display = "none";
-              bodyimg.style.display = "none";
-              summitimg.style.display = "none";
-              desertimg.style.display = "none";
-            }
+          //share.onclick = function() {
+              //gradshowimg.style.display = "none";
+              //email.style.display = "none";
+              //current.style.display = "none";
+              //ramraidpdf.style.display = "none";
+              //demonpdf.style.display = "none";
+              //lcrcpdf.style.display = "none";
+              //specialpdf.style.display = "none";
+              //diverpdf.style.display = "none";
+              //untimedpdf.style.display = "none";
+              //cruciformpdf.style.display = "none";
+              //attendantspdf.style.display = "none";
+              //horrorimg.style.display = "none";
+              //villagesimg.style.display = "none";
+              //futureimg.style.display = "none";
+              //shareimg.style.display = "block";
+              //gogimg.style.display = "none";
+              //bodyimg.style.display = "none";
+              //summitimg.style.display = "none";
+              //desertimg.style.display = "none";
+              //perishimg.style.display = "none";
+            //}
 
             special.onclick = function() {
                 gradshowimg.style.display = "none";
                 email.style.display = "none";
                 current.style.display = "none";
-                ramraidpdf.style.display = "none";
+                //ramraidpdf.style.display = "none";
                 demonpdf.style.display = "none";
                 lcrcpdf.style.display = "none";
                 specialpdf.style.display = "block";
@@ -271,20 +283,21 @@ $(document).ready(function() {
                 cruciformpdf.style.display = "none";
                 attendantspdf.style.display = "none";
                 horrorimg.style.display = "none";
-                villagesimg.style.display = "none";
+                //villagesimg.style.display = "none";
                 futureimg.style.display = "none";
-                shareimg.style.display = "none";
+                //shareimg.style.display = "none";
                 gogimg.style.display = "none";
                 bodyimg.style.display = "none";
                 summitimg.style.display = "none";
                 desertimg.style.display = "none";
+                perishimg.style.display = "none";
               }
 
               diver.onclick = function() {
                   gradshowimg.style.display = "none";
                   email.style.display = "none";
                   current.style.display = "none";
-                  ramraidpdf.style.display = "none";
+                  //ramraidpdf.style.display = "none";
                   demonpdf.style.display = "none";
                   lcrcpdf.style.display = "none";
                   specialpdf.style.display = "none";
@@ -293,20 +306,21 @@ $(document).ready(function() {
                   cruciformpdf.style.display = "none";
                   attendantspdf.style.display = "none";
                   horrorimg.style.display = "none";
-                  villagesimg.style.display = "none";
+                  //villagesimg.style.display = "none";
                   futureimg.style.display = "none";
-                  shareimg.style.display = "none";
+                  //shareimg.style.display = "none";
                   gogimg.style.display = "none";
                   bodyimg.style.display = "none";
                   summitimg.style.display = "none";
                   desertimg.style.display = "none";
+                  perishimg.style.display = "none";
                 }
 
               gog.onclick = function() {
                   gradshowimg.style.display = "none";
                   email.style.display = "none";
                   current.style.display = "none";
-                  ramraidpdf.style.display = "none";
+                  //ramraidpdf.style.display = "none";
                   demonpdf.style.display = "none";
                   lcrcpdf.style.display = "none";
                   specialpdf.style.display = "none";
@@ -315,20 +329,21 @@ $(document).ready(function() {
                   cruciformpdf.style.display = "none";
                   attendantspdf.style.display = "none";
                   horrorimg.style.display = "none";
-                  villagesimg.style.display = "none";
+                  //villagesimg.style.display = "none";
                   futureimg.style.display = "none";
-                  shareimg.style.display = "none";
+                  //shareimg.style.display = "none";
                   gogimg.style.display = "block";
                   bodyimg.style.display = "none";
                   summitimg.style.display = "none";
                   desertimg.style.display = "none";
+                  perishimg.style.display = "none";
                 }
 
                 body.onclick = function() {
                     gradshowimg.style.display = "none";
                     email.style.display = "none";
                     current.style.display = "none";
-                    ramraidpdf.style.display = "none";
+                    //ramraidpdf.style.display = "none";
                     demonpdf.style.display = "none";
                     lcrcpdf.style.display = "none";
                     specialpdf.style.display = "none";
@@ -337,20 +352,21 @@ $(document).ready(function() {
                     attendantspdf.style.display = "none";
                     cruciformpdf.style.display = "none";
                     horrorimg.style.display = "none";
-                    villagesimg.style.display = "none";
+                    //villagesimg.style.display = "none";
                     futureimg.style.display = "none";
-                    shareimg.style.display = "none";
+                    //shareimg.style.display = "none";
                     gogimg.style.display = "none";
                     bodyimg.style.display = "block";
                     summitimg.style.display = "none";
                     desertimg.style.display = "none";
+                    perishimg.style.display = "none";
                   }
 
                   untimed.onclick = function() {
                       gradshowimg.style.display = "none";
                       email.style.display = "none";
                       current.style.display = "none";
-                      ramraidpdf.style.display = "none";
+                      //ramraidpdf.style.display = "none";
                       demonpdf.style.display = "none";
                       lcrcpdf.style.display = "none";
                       specialpdf.style.display = "none";
@@ -359,20 +375,21 @@ $(document).ready(function() {
                       cruciformpdf.style.display = "none";
                       attendantspdf.style.display = "none";
                       horrorimg.style.display = "none";
-                      villagesimg.style.display = "none";
+                      //villagesimg.style.display = "none";
                       futureimg.style.display = "none";
-                      shareimg.style.display = "none";
+                      //shareimg.style.display = "none";
                       gogimg.style.display = "none";
                       bodyimg.style.display = "none";
                       summitimg.style.display = "none";
                       desertimg.style.display = "none";
+                      perishimg.style.display = "none";
                     }
 
                  cruciform.onclick = function() {
                       gradshowimg.style.display = "none";
                       email.style.display = "none";
                       current.style.display = "none";
-                      ramraidpdf.style.display = "none";
+                      //ramraidpdf.style.display = "none";
                       demonpdf.style.display = "none";
                       lcrcpdf.style.display = "none";
                       specialpdf.style.display = "none";
@@ -381,20 +398,21 @@ $(document).ready(function() {
                       cruciformpdf.style.display = "block";
                       attendantspdf.style.display = "none";
                       horrorimg.style.display = "none";
-                      villagesimg.style.display = "none";
+                      //villagesimg.style.display = "none";
                       futureimg.style.display = "none";
-                      shareimg.style.display = "none";
+                      //shareimg.style.display = "none";
                       gogimg.style.display = "none";
                       bodyimg.style.display = "none";
                       summitimg.style.display = "none";
                       desertimg.style.display = "none";
+                      perishimg.style.display = "none";
                     }
 
                 attendants.onclick = function() {
                       gradshowimg.style.display = "none";
                       email.style.display = "none";
                       current.style.display = "none";
-                      ramraidpdf.style.display = "none";
+                      //ramraidpdf.style.display = "none";
                       demonpdf.style.display = "none";
                       lcrcpdf.style.display = "none";
                       specialpdf.style.display = "none";
@@ -403,20 +421,21 @@ $(document).ready(function() {
                       cruciformpdf.style.display = "none";
                       attendantspdf.style.display = "block";
                       horrorimg.style.display = "none";
-                      villagesimg.style.display = "none";
+                      //villagesimg.style.display = "none";
                       futureimg.style.display = "none";
-                      shareimg.style.display = "none";
+                      //shareimg.style.display = "none";
                       gogimg.style.display = "none";
                       bodyimg.style.display = "none";
                       summitimg.style.display = "none";
                       desertimg.style.display = "none";
+                      perishimg.style.display = "none";
                     }
 
                 summit.onclick = function() {
                       gradshowimg.style.display = "none";
                       email.style.display = "none";
                       current.style.display = "none";
-                      ramraidpdf.style.display = "none";
+                      //ramraidpdf.style.display = "none";
                       demonpdf.style.display = "none";
                       lcrcpdf.style.display = "none";
                       specialpdf.style.display = "none";
@@ -425,20 +444,21 @@ $(document).ready(function() {
                       cruciformpdf.style.display = "none";
                       attendantspdf.style.display = "none";
                       horrorimg.style.display = "none";
-                      villagesimg.style.display = "none";
+                      //villagesimg.style.display = "none";
                       futureimg.style.display = "none";
-                      shareimg.style.display = "none";
+                      //shareimg.style.display = "none";
                       gogimg.style.display = "none";
                       bodyimg.style.display = "none";
                       summitimg.style.display = "block";
                       desertimg.style.display = "none";
+                      perishimg.style.display = "none";
                     }
 
                 desert.onclick = function() {
                       gradshowimg.style.display = "none";
                       email.style.display = "none";
                       current.style.display = "none";
-                      ramraidpdf.style.display = "none";
+                      //ramraidpdf.style.display = "none";
                       demonpdf.style.display = "none";
                       lcrcpdf.style.display = "none";
                       specialpdf.style.display = "none";
@@ -447,13 +467,36 @@ $(document).ready(function() {
                       cruciformpdf.style.display = "none";
                       attendantspdf.style.display = "none";
                       horrorimg.style.display = "none";
-                      villagesimg.style.display = "none";
+                      //villagesimg.style.display = "none";
                       futureimg.style.display = "none";
-                      shareimg.style.display = "none";
+                      //shareimg.style.display = "none";
                       gogimg.style.display = "none";
                       bodyimg.style.display = "none";
                       summitimg.style.display = "none";
                       desertimg.style.display = "block";
+                      perishimg.style.display = "none";
                     }
 
+                perish.onclick = function() {
+                      gradshowimg.style.display = "none";
+                      email.style.display = "none";
+                      current.style.display = "none";
+                      //ramraidpdf.style.display = "none";
+                      demonpdf.style.display = "none";
+                      lcrcpdf.style.display = "none";
+                      specialpdf.style.display = "none";
+                      diverpdf.style.display = "none"
+                      untimedpdf.style.display = "none";
+                      cruciformpdf.style.display = "none";
+                      attendantspdf.style.display = "none";
+                      horrorimg.style.display = "none";
+                      //villagesimg.style.display = "none";
+                      futureimg.style.display = "none";
+                      //shareimg.style.display = "none";
+                      gogimg.style.display = "none";
+                      bodyimg.style.display = "none";
+                      summitimg.style.display = "none";
+                      desertimg.style.display = "none";
+                      perishimg.style.display = "block";
+                    }
 })
