@@ -14,6 +14,10 @@ $(document).ready(function() {
   var untimedpdf = document.getElementById("untimedpdf")
   var cruciform = document.getElementById("cruciform")
   var cruciformpdf = document.getElementById("cruciformpdf")
+  var neutral = document.getElementById("neutral")
+  var neutralpdf = document.getElementById("neutralpdf")
+  var storm = document.getElementById("storm")
+  var stormpdf = document.getElementById("stormpdf")
   var attendants = document.getElementById("attendants")
   var attendantspdf = document.getElementById("attendantspdf")
   var current = document.getElementById("current")
@@ -50,6 +54,8 @@ $(document).ready(function() {
     diverpdf.style.display = "none";
     untimedpdf.style.display = "none";
     cruciformpdf.style.display = "none";
+    neutralpdf.style.display = "none";
+    stormpdf.style.display = "none";
     attendantspdf.style.display = "none";
     email.style.display = "none";
     horrorimg.style.display = "none";
@@ -73,6 +79,8 @@ $(document).ready(function() {
       diverpdf.style.display = "none";
       untimedpdf.style.display = "none";
       cruciformpdf.style.display = "none";
+      neutralpdf.style.display = "none";
+      stormpdf.style.display = "none";
       attendantspdf.style.display = "none";
       email.style.display = "none";
       horrorimg.style.display = "none";
@@ -96,6 +104,8 @@ $(document).ready(function() {
       diverpdf.style.display = "none";
       untimedpdf.style.display = "none";
       cruciformpdf.style.display = "none";
+      neutralpdf.style.display = "none";
+      stormpdf.style.display = "none";
       attendantspdf.style.display = "none";
       email.style.display = "none";
       horrorimg.style.display = "none";
@@ -118,6 +128,8 @@ $(document).ready(function() {
       //diverpdf.style.display = "none";
       //untimedpdf.style.display = "none";
       //cruciformpdf.style.display = "none";
+      //neutralpdf.style.display = "none";
+      //stormpdf.style.display = "none";
       //attendantspdf.style.display = "none";
       //email.style.display = "none";
       //horrorimg.style.display = "none";
@@ -142,6 +154,8 @@ $(document).ready(function() {
       diverpdf.style.display = "none";
       untimedpdf.style.display = "none";
       cruciformpdf.style.display = "none";
+      neutralpdf.style.display = "none";
+      stormpdf.style.display = "none";
       attendantspdf.style.display = "none";
       horrorimg.style.display = "none";
       gradshowimg.style.display = "none";
@@ -166,6 +180,8 @@ $(document).ready(function() {
         diverpdf.style.display = "none";
         untimedpdf.style.display = "none";
         cruciformpdf.style.display = "none";
+        neutralpdf.style.display = "none";
+        stormpdf.style.display = "none";
         attendantspdf.style.display = "none";
         gradshowimg.style.display = "none";
         //villagesimg.style.display = "none";
@@ -189,6 +205,8 @@ $(document).ready(function() {
         diverpdf.style.display = "none";
         untimedpdf.style.display = "none";
         cruciformpdf.style.display = "none";
+        neutralpdf.style.display = "none";
+        stormpdf.style.display = "none";
         attendantspdf.style.display = "none";
         horrorimg.style.display = "none";
         //villagesimg.style.display = "none";
@@ -212,6 +230,8 @@ $(document).ready(function() {
           //diverpdf.style.display = "none";
           //untimedpdf.style.display = "none";
           //cruciformpdf.style.display = "none";
+          //neutralpdf.style.display = "none";
+          //stormpdf.style.display = "none";
           //attendantspdf.style.display = "none";
           //horrorimg.style.display = "none";
           //villagesimg.style.display = "block";
@@ -235,6 +255,8 @@ $(document).ready(function() {
             diverpdf.style.display = "none";
             untimedpdf.style.display = "none";
             cruciformpdf.style.display = "none";
+            neutralpdf.style.display = "none";
+            stormpdf.style.display = "none";
             attendantspdf.style.display = "none";
             horrorimg.style.display = "none";
             //villagesimg.style.display = "none";
@@ -258,6 +280,8 @@ $(document).ready(function() {
               //diverpdf.style.display = "none";
               //untimedpdf.style.display = "none";
               //cruciformpdf.style.display = "none";
+              //neutralpdf.style.display = "none";
+              //stormpdf.style.display = "none";
               //attendantspdf.style.display = "none";
               //horrorimg.style.display = "none";
               //villagesimg.style.display = "none";
@@ -281,6 +305,8 @@ $(document).ready(function() {
                 diverpdf.style.display = "none";
                 untimedpdf.style.display = "none";
                 cruciformpdf.style.display = "none";
+                neutralpdf.style.display = "none";
+                stormpdf.style.display = "none";
                 attendantspdf.style.display = "none";
                 horrorimg.style.display = "none";
                 //villagesimg.style.display = "none";
@@ -304,6 +330,8 @@ $(document).ready(function() {
                   diverpdf.style.display = "block";
                   untimedpdf.style.display = "none";
                   cruciformpdf.style.display = "none";
+                  neutralpdf.style.display = "none";
+                  stormpdf.style.display = "none";
                   attendantspdf.style.display = "none";
                   horrorimg.style.display = "none";
                   //villagesimg.style.display = "none";
@@ -327,6 +355,8 @@ $(document).ready(function() {
                   diverpdf.style.display = "none";
                   untimedpdf.style.display = "none";
                   cruciformpdf.style.display = "none";
+                  neutralpdf.style.display = "none";
+                  stormpdf.style.display = "none";
                   attendantspdf.style.display = "none";
                   horrorimg.style.display = "none";
                   //villagesimg.style.display = "none";
@@ -349,6 +379,8 @@ $(document).ready(function() {
                     specialpdf.style.display = "none";
                     diverpdf.style.display = "none";
                     untimedpdf.style.display = "none";
+                    neutralpdf.style.display = "none";
+                    stormpdf.style.display = "none";
                     attendantspdf.style.display = "none";
                     cruciformpdf.style.display = "none";
                     horrorimg.style.display = "none";
@@ -373,6 +405,8 @@ $(document).ready(function() {
                       diverpdf.style.display = "none";
                       untimedpdf.style.display = "block";
                       cruciformpdf.style.display = "none";
+                      neutralpdf.style.display = "none";
+                      stormpdf.style.display = "none";
                       attendantspdf.style.display = "none";
                       horrorimg.style.display = "none";
                       //villagesimg.style.display = "none";
@@ -396,6 +430,8 @@ $(document).ready(function() {
                       diverpdf.style.display = "none";
                       untimedpdf.style.display = "none";
                       cruciformpdf.style.display = "block";
+                      neutralpdf.style.display = "none";
+                      stormpdf.style.display = "none";
                       attendantspdf.style.display = "none";
                       horrorimg.style.display = "none";
                       //villagesimg.style.display = "none";
@@ -408,6 +444,56 @@ $(document).ready(function() {
                       perishimg.style.display = "none";
                     }
 
+                  neutral.onclick = function() {
+                          gradshowimg.style.display = "none";
+                          email.style.display = "none";
+                          current.style.display = "none";
+                          //ramraidpdf.style.display = "none";
+                          demonpdf.style.display = "none";
+                          lcrcpdf.style.display = "none";
+                          specialpdf.style.display = "none";
+                          diverpdf.style.display = "none";
+                          untimedpdf.style.display = "none";
+                          cruciformpdf.style.display = "none";
+                          neutralpdf.style.display = "block";
+                          stormpdf.style.display = "none";
+                          attendantspdf.style.display = "none";
+                          horrorimg.style.display = "none";
+                          //villagesimg.style.display = "none";
+                          futureimg.style.display = "none";
+                          //shareimg.style.display = "none";
+                          gogimg.style.display = "none";
+                          bodyimg.style.display = "none";
+                          summitimg.style.display = "none";
+                          desertimg.style.display = "none";
+                          perishimg.style.display = "none";
+                        }
+
+                  storm.onclick = function() {
+                              gradshowimg.style.display = "none";
+                              email.style.display = "none";
+                              current.style.display = "none";
+                              //ramraidpdf.style.display = "none";
+                              demonpdf.style.display = "none";
+                              lcrcpdf.style.display = "none";
+                              specialpdf.style.display = "none";
+                              diverpdf.style.display = "none";
+                              untimedpdf.style.display = "none";
+                              cruciformpdf.style.display = "none";
+                              neutralpdf.style.display = "none";
+                              stormpdf.style.display = "block";
+                              attendantspdf.style.display = "none";
+                              horrorimg.style.display = "none";
+                              //villagesimg.style.display = "none";
+                              futureimg.style.display = "none";
+                              //shareimg.style.display = "none";
+                              gogimg.style.display = "none";
+                              bodyimg.style.display = "none";
+                              summitimg.style.display = "none";
+                              desertimg.style.display = "none";
+                              perishimg.style.display = "none";
+                            }
+
                 attendants.onclick = function() {
                       gradshowimg.style.display = "none";
                       email.style.display = "none";
@@ -419,6 +505,8 @@ $(document).ready(function() {
                       diverpdf.style.display = "none";
                       untimedpdf.style.display = "none";
                       cruciformpdf.style.display = "none";
+                      neutralpdf.style.display = "none";
+                      stormpdf.style.display = "none";
                       attendantspdf.style.display = "block";
                       horrorimg.style.display = "none";
                       //villagesimg.style.display = "none";
@@ -442,6 +530,8 @@ $(document).ready(function() {
                       diverpdf.style.display = "none";
                       untimedpdf.style.display = "none";
                       cruciformpdf.style.display = "none";
+                      neutralpdf.style.display = "none";
+                      stormpdf.style.display = "none";
                       attendantspdf.style.display = "none";
                       horrorimg.style.display = "none";
                       //villagesimg.style.display = "none";
@@ -465,6 +555,8 @@ $(document).ready(function() {
                       diverpdf.style.display = "none";
                       untimedpdf.style.display = "none";
                       cruciformpdf.style.display = "none";
+                      neutralpdf.style.display = "none";
+                      stormpdf.style.display = "none";
                       attendantspdf.style.display = "none";
                       horrorimg.style.display = "none";
                       //villagesimg.style.display = "none";
@@ -488,6 +580,8 @@ $(document).ready(function() {
                       diverpdf.style.display = "none"
                       untimedpdf.style.display = "none";
                       cruciformpdf.style.display = "none";
+                      neutralpdf.style.display = "none";
+                      stormpdf.style.display = "none";
                       attendantspdf.style.display = "none";
                       horrorimg.style.display = "none";
                       //villagesimg.style.display = "none";
